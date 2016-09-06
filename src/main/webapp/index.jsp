@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6 text-center">
 					<div class="service-box">
-						<form class="form-signin" action="http://localhost:8080/wish" method="POST">
+						<form class="form-signin" action="${pageContext.request.contextPath}/wish" method="POST">
 							<h2 class="form-signin-heading">What you wish?</h2>
 							<input type="hidden" name="_method" value="PUT"/>
 							<input type="text" name="description" class="form-control"
